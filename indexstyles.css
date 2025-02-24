@@ -1,0 +1,63 @@
+/* 전체 페이지 스타일 */
+body {
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+/* 제목 스타일 */
+h1 {
+    font-size: 2.5em;
+    color: #007bff;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 2em;
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* 버튼 스타일 */
+.button {
+    display: inline-block;
+    padding: 12px 20px;
+    margin: 10px;
+    font-size: 1.2em;
+    font-weight: bold;
+    text-decoration: none;
+    color: white;
+    background-color: #007bff;
+    border-radius: 5px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease-in-out;
+}
+
+.button:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.button:active {
+    background-color: #004494;
+    transform: scale(0.95);
+}
+
+/* 반응형 디자인 */
+@media (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+
+    h2 {
+        font-size: 1.5em;
+    }
+
+    .button {
+        font-size: 1em;
+        padding: 10px 15px;
+    }
+}
